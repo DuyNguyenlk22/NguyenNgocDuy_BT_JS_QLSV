@@ -36,6 +36,7 @@ function suaThongTin(id) {
   var index = timViTri(id, dssv);
   var data = dssv[index];
   showThongTin(data);
+  domID("txtMaSV").disabled = true;
 }
 function updateSV() {
   var data = layThongTin();
